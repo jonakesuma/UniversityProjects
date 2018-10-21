@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LearningAppWk13</string>
+    <string name="tutorialVid">
+        Tutorial:
+        \n -Press play button to play the Youtube playlist.
+        \n -Move forward and backward in the playlist accordingly.
+        \n
+        \n To fullscreen:
+        \n -Tap fullscreen on Youtube Widget.
+        \n -Screen will be rotated, play the video again.
+        \n -Press fullscreen again.
+        \n
+        \n Information:
+        \n 1st Video - SDLC
+        \n 2nd Video - Project Management and Identification
+        \n 3rd Video - Feasibility Analysis
+        \n
+    </string>
+</resources>

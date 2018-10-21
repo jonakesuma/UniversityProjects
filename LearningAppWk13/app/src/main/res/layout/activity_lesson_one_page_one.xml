@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonOnePageOne">
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:background="@android:color/holo_green_light"
+        android:text="SDLC"
+        android:textSize="28sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:text="SDLC, sometimes called System Development LifeCycle, consists of 4 phases. These 4 phases are Planning, Analysis, Design and Implementation. "
+        app:layout_constraintTop_toTopOf="@+id/introText"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="315dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introText"
+        app:srcCompat="@drawable/sdlc" />
+
+    <TextView
+        android:id="@+id/explanationOne"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/darker_gray"
+        android:text="Each phase is documented. This is to make sure that during th system development, we can track if there are any problems. These phases are executed sequentially, incrementally or in some other patterns. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="72dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="2dp"
+        android:text="next"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/explanationOne"
+        app:layout_constraintEnd_toEndOf="@+id/explanationOne" />
+
+</android.support.constraint.ConstraintLayout>

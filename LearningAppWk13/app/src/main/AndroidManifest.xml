@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jonathan.learningappwk13">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="INFS2603"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChooseLessons" />
+        <activity android:name=".LessonOne" />
+        <activity android:name=".LessonTwo" />
+        <activity android:name=".Information" />
+        <activity android:name=".QuizLessonOne" />
+        <activity android:name=".LessonOnePageOne" />
+        <activity android:name=".VideoOne" />
+        <activity android:name=".LessonOnePageTwo" />
+        <activity android:name=".LessonOnePageThree" />
+        <activity android:name=".LessonOneTwoPageOne" />
+        <activity android:name=".LessonOneThreePageOne" />
+        <activity android:name=".LessonOneThreePageTwo" />
+        <activity android:name=".ChooseLessonOne" />
+        <activity android:name=".LessonOneThreePageThree" />
+        <activity android:name=".LessonOneQ1" />
+        <activity android:name=".LessonOneQ2" />
+        <activity android:name=".LessonOneQ3" />
+        <activity android:name=".LessonOneQ4" />
+        <activity android:name=".LessonOneQ5" />
+        <activity android:name=".LessonOneQ6" />
+        <activity android:name=".LessonOneQ7"></activity>
+    </application>
+
+</manifest>
